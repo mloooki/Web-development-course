@@ -145,6 +145,6 @@ app.get("/about",function(req,res){
   res.render("about");
 });
 
-app.listen(process.env.PROT||3000,function(){
+app.listen(process.env.PROT,function(){
   console.log("server started on port 3000");
 })
