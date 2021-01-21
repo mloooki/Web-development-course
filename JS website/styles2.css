@@ -1,0 +1,65 @@
+h1{
+  font-family: 'Potta One', cursive ;
+}
+html,
+body {
+
+    background-color: #dfe0d9;
+}
+h6
+{
+  text-align:center;
+}
+.footer button{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+footer{
+width: 100%;
+text-align: center;
+background-color: #2a2c2e;
+color: #fff;
+}
+
+.header{
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
+
+.websiteContent{
+display: grid;
+grid-template-columns: auto auto ;
+padding: 25px;
+align-items:center;
+justify-content:space-evenly;
+
+}
+
+@media screen and (max-width: 700px) {
+  .websiteContent {
+    display: flex;
+    flex-direction: column;
+     align-items:center;
+    align-content:center;
+  }
+  .text-button{
+    padding-top: 19px;
+  }
+}
+
+.text-button{
+text-align: center;
+
+}
+.header{
+  text-align: center;
+  padding-bottom: 19px;
+  padding-top: 20px;
+}
+
+
+.navbar-nav{
+  flex: auto;
+    justify-content:center;
+}

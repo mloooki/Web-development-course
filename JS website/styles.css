@@ -1,0 +1,63 @@
+h1{
+  font-family: 'Potta One', cursive ;
+}
+html,
+body {
+
+    background-color: #dfe0d9;
+}
+h6
+{
+  text-align: center;
+}
+.footer button{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+footer{
+width: 100%;
+text-align: center;
+background-color: #2a2c2e;
+color: #fff;
+}
+
+
+.content{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+align-content: flex-start;
+padding: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    flex-direction: column;
+     align-items:center;
+    align-content:center;
+  }
+  .text-button{
+    padding-top: 19px;
+  }
+}
+.img2{
+height: 100px;
+
+}
+.text-button{
+text-align: center;
+
+}
+.header{
+  text-align: center;
+  padding-bottom: 19px;
+  padding-top: 20px;
+}
+
+
+.navbar-nav{
+  flex: auto;
+    justify-content:center;
+}
